@@ -1,0 +1,11 @@
+Exercice 4 ---
+
+Résous le sujet 2 en déterminant combien de bâtiments ont au moins un appartement avec une vue sur le soleil couchant.
+
+La fonction countBuildingsWithView4 prend en paramètre un tableau heights contenant les hauteurs (en étages) des immeubles d'une rue, d'est en ouest. Elle retourne le nombre de bâtiments ayant au moins un appartement avec une vue à l'ouest.
+
+Le premier passage parcourt le tableau depuis la fin vers le début pour remplir le tableau maxHeightsFromRight. À chaque étape, il stocke la hauteur maximale à droite de chaque bâtiment.
+
+Le deuxième passage parcourt à nouveau le tableau, cette fois-ci de gauche à droite, pour compter les bâtiments ayant une vue sur le soleil couchant. Si la hauteur d'un bâtiment est supérieure à la hauteur maximale à sa droite, il est considéré comme ayant une vue sur le soleil couchant, et le compteur est augmenté.
+
+Ainsi, la fonction détermine efficacement le nombre de bâtiments avec vue sur le soleil couchant en effectuant deux passages sur le tableau, ce qui lui donne une complexité algorithmique de O(n).

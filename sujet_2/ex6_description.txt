@@ -1,0 +1,11 @@
+Exercice 6 ---
+
+Résous le sujet 2 en ne faisant qu'un seul passage sur la liste.
+
+La fonction countBuildingsWithView6 prend en paramètre une liste heights, qui représente la hauteur des immeubles de la rue, d'est en ouest. Elle retourne le nombre de bâtiments ayant au moins un appartement avec une vue sur le soleil couchant (à l'ouest).
+
+La fonction initialise un compteur (count) à 0 pour compter les bâtiments avec vue à l'ouest et une hauteur maximale (maxHeight) à 0. Ensuite, elle parcourt la liste des hauteurs en commençant par l'ouest (du dernier bâtiment au premier) à l'aide d'une boucle for.
+
+À chaque itération, la fonction vérifie si la hauteur du bâtiment actuel est supérieure à la hauteur maximale rencontrée jusqu'à présent. Si c'est le cas, elle met à jour la hauteur maximale et incrémente le compteur. Cela signifie qu'un bâtiment a une vue à l'ouest.
+
+À la fin de la boucle, la fonction retourne le nombre de bâtiments ayant une vue à l'ouest, c'est-à-dire le nombre de bâtiments dont la hauteur est la plus grande en se déplaçant vers l'ouest.

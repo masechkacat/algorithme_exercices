@@ -1,0 +1,11 @@
+Exercice 2 --- 
+
+Résous le sujet 2 avec une complexité algorithmique de O(n²). Cette fonction `countBuildingsWithView2` prend en paramètre une liste des hauteurs (en étages) des bâtiments dans la rue, d'est en ouest. Elle compte combien de bâtiments ont au moins un appartement avec une vue sur le soleil couchant (à l'ouest).
+
+La fonction parcourt le tableau `heights` avec une boucle `for`. Pour chaque bâtiment à l'indice `i`, elle parcourt le reste des bâtiments avec une deuxième boucle `for`, en commençant à l'indice suivant de la première boucle (`j = i + 1`).
+
+Elle vérifie si un bâtiment plus haut ou de même hauteur est trouvé à l'est du bâtiment actuel. Si c'est le cas, cela signifie que le bâtiment actuel n'a pas de vue à l'ouest, donc la variable `hasView` est définie sur `false`.
+
+Si aucun bâtiment plus haut n'est trouvé à l'est, le bâtiment actuel a une vue à l'ouest, et le compteur `count` est incrémenté de 1.
+
+Finalement, la fonction retourne le nombre total de bâtiments avec une vue à l'ouest.

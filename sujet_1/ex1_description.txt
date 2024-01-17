@@ -1,0 +1,13 @@
+Exercice 1 --- 
+
+Résous le sujet 1 avec une complexité algorithmique de O(n²), c'est-à-dire que ton programme devra comparer chaque élément entre eux à l'aide de 2 boucles imbriquées.
+
+La fonction findPairWithSum prend en paramètre un tableau arr et un nombre k. Elle parcourt le tableau avec deux boucles imbriquées pour comparer chaque élément entre eux. Si la somme de deux nombres est égale à k, la fonction retourne true. Sinon, si aucune paire n'est trouvée, elle retourne false.
+
+La première boucle for itère sur les éléments du tableau à partir de l'indice 0 jusqu'à la fin du tableau. La deuxième boucle for itère sur les éléments du tableau à partir de l'indice suivant de la première boucle jusqu'à la fin du tableau. Cela permet de comparer chaque élément avec tous les éléments suivants dans le tableau.
+
+La condition if vérifie si la somme des deux nombres arr[i] et arr[j] est égale à k. Si c'est le cas, cela signifie qu'une paire a été trouvée et la fonction retourne true.
+
+Si aucune paire n'est trouvée après avoir parcouru tous les éléments du tableau, la fonction retourne false.
+
+Ce code a une complexité algorithmique de O(n²) car il compare chaque élément du tableau avec tous les éléments suivants.

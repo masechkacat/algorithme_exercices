@@ -1,0 +1,10 @@
+Exercice 5 --- 
+Résous le sujet 1 en ne faisant qu'un seul passage sur ta liste.
+
+Si tu réussis cet exercice, sache qu'il a été posé en entretien par Google. Tu peux postuler à Google. La classe, non ?
+
+Ce code source contient la solution à l'exercice 5, qui consiste à résoudre le "Sujet 1" en ne faisant qu'un seul passage sur la liste donnée. L'objectif est de déterminer si deux nombres du tableau ont une somme égale à un nombre cible (k).
+
+Le code source utilise un ensemble (Set) pour stocker les nombres déjà vus lors du parcours du tableau avec une seule boucle for. À chaque itération, il vérifie si la différence entre k et l'élément actuel du tableau est déjà présente dans le Set à l'aide de la méthode `has()`. Si c'est le cas, la fonction retourne true, indiquant qu'une paire de nombres a été trouvée. Sinon, elle ajoute l'élément actuel au Set à l'aide de la méthode `add()`.
+
+Ce code impressionnant résout le problème avec une complexité algorithmique de O(n), ce qui signifie qu'il est très efficace pour de grandes listes. Il est intéressant de noter que cet exercice a été posé en entretien par Google, ce qui montre à quel point il est prestigieux et exigeant. Si vous pouvez le résoudre, vous êtes prêt à postuler chez Google !

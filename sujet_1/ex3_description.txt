@@ -1,0 +1,8 @@
+Exercice 3 --- 
+Résous le sujet 1 avec une complexité algorithmique de O(n), c'est-à-dire que ton programme pourra parcourir plusieurs fois chaque élément du tableau (mais pas de boucle imbriquée !).
+
+Ce code source contient la solution à l'exercice 3, qui consiste à résoudre le "Sujet 1" en utilisant une complexité algorithmique de O(n). L'objectif est de déterminer si deux nombres du tableau donné ont une somme égale à un nombre cible (k).
+
+Le code source utilise un ensemble (Set) pour stocker les éléments uniques du tableau lors du premier passage. Ensuite, lors du deuxième passage, il vérifie si l'élément complémentaire nécessaire pour atteindre la somme cible (k - arr[i]) est présent dans l'ensemble et n'est pas égal à l'élément actuel. Si c'est le cas, la fonction retourne true, indiquant qu'une paire de nombres a été trouvée. Sinon, si aucune paire n'est trouvée après avoir parcouru tout le tableau, la fonction retourne false.
+
+Ce code a une complexité algorithmique optimisée de O(n) car il évite l'utilisation de boucles imbriquées.
